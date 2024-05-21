@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drag and Drop</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<div class="column">
+		<div class="task-title" id="title-1">
+			<h3> ✔ Required</h3>
+		</div>
+		<div class="task-container" id="container-1">
+
+			<div class="task" draggable="true">
+				<div class="image-container">
+					<img src="image/example-2.jpg" alt="Avatar 1">
+				</div>
+				<div class="text-container">
+					<h4>Meeting</h4>
+					<p>Attend Conference Meeting</p>
+				</div>
+			</div>
+
+			<div class="task" draggable="true">
+				<div class="image-container">
+					<img src="image/roberto-delgado-webb-5m42zpWo6d0-unsplash.jpg" alt="Avatar 2">
+				</div>
+				<div class="text-container">
+					<h4>Podcast</h4>
+					<p>Listen to Software Dev. Journey</p>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="column">
+		<div class="task-title" id="title-2">
+			<h3> ✔ In Progress</h3>
+		</div>
+		<div class="task-container" id="container-2"></div>
+	</div>
+
+	<div class="column">
+		<div class="task-title" id="title-3">
+			<h3> ✔ Task Completed</h3>
+		</div>
+		<div class="task-container" id="container-3"></div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
